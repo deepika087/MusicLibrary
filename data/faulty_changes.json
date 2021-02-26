@@ -1,0 +1,46 @@
+{
+  "changes" : [
+    {
+      "action": "Update",
+      "user_id" : "1",
+      "playlist_id": "2",
+      "song_ids" : [
+        "40",
+        "32"
+      ]
+    }, 
+    {
+      "action": "Add",
+      "user_id" : "3",
+      "playlist_id": "2",
+      "song_ids" : [
+        "40",
+        "32"
+      ]
+    },
+    {
+      "action": "Add",
+      "user_id" : "3",
+      "playlist_id": "201",
+      "song_ids" : [
+        "100",
+        "101"
+      ]
+    },
+    {
+      "action": "Delete",
+      "user_id" : "3",
+      "playlist_id": "2"
+    }, 
+    {
+      "action": "MyRandomAction",
+      "user_id" : "3",
+      "playlist_id": "2"
+    },
+    {
+      "action": "Delete",
+      "user_id" : "2",
+      "playlist_id": "1"
+    }
+  ]
+}
